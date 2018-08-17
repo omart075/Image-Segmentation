@@ -32,9 +32,11 @@ python segmentation.py -i <image>
   
 # Extract Foreground
   * Once the image has been pre-processed, the foreground object of choice can be extracted using OpenCV's built in grabcut function. The function yields a mask of the extracted object that can be used in the later steps.
+    ![Alt text](/results/mask.png?raw=true "Mask")
   
 # Get Pixels of Extracted Foreground
-  * After dilating and eroding the mask to smooth it out, the mask's contour is found as well as the pixels within the mask.  
+  * After dilating and eroding the mask to smooth it out, the mask's contour is found as well as the pixels within the mask.
+    ![Alt text](/results/smooth_mask.png?raw=true "Smooth mask")
   
 # Color the Pixels:
   * A transparent overlay is then added to the pixels within the contour boundary to complete the segmentation.
