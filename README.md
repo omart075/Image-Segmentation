@@ -39,6 +39,6 @@ python segmentation.py -i <image>
     ![Alt text](/results/smooth_mask.png?raw=true "Smooth mask")
   
 # Color the Pixels:
-  * A transparent overlay is then added to the pixels within the contour boundary to complete the segmentation.
-  ![Alt text](/results/result_4.png?raw=true "Result")
+  * A transparent overlay is then added to the pixels within the contour boundary to complete the segmentation. **NOTE: More results can be seen in the results folder.**
+  ![Alt text](/results/result.png?raw=true "Result")
   
