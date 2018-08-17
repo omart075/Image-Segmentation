@@ -19,7 +19,7 @@ python segmentation.py -i <image>
   * Color the Pixels  
 
 # Select ROI (Region of Interest):
-  * Once the image loads up, your rectangular ROI can be selected by clicking the top left corner of your object of interest and dragging down to the bottom right corner of your object. Currently, a rectangle is drawn as you click and drag to help visualize the region. **NOTE: The rectangle freezes for the first second, but will draw smoothly afterwards.**
+  * Once the image loads up, your rectangular ROI can be selected by clicking the top left corner of your object of interest and dragging down to the bottom right corner of your object. Currently, a rectangle is drawn as you click and drag to help visualize the region. **NOTE: The rectangle freezes for the first second, but will draw smoothly afterwards. Also, only one selection is supported but can be modified to support multiple selections.**
   ![Alt text](/results/roi.png?raw=true "Selected ROI")
 
 # Adjust Gamma Levels:
