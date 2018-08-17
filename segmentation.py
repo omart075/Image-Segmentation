@@ -188,6 +188,8 @@ def color_roi(clone, pixelpoints, image):
 
 def display_results(cropped, image):
 	''' Displays final results. '''
+	cv2.imshow('img', image)
+	cv2.waitKey(0)
 
 	fig, axes = plt.subplots(1, 2, figsize=(8, 4))
 	ax = axes.ravel()
