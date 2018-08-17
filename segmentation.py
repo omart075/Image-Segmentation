@@ -111,7 +111,7 @@ def increase_contrast(clone):
 	# image = (maxIntensity/phi)*(image/(maxIntensity/theta))**2
 	# image = array(image, dtype=uint8)
 
-	cv2.imshow('img', image)
+	cv2.imshow('contrast', image)
 	cv2.waitKey(0)
 	return image
 
