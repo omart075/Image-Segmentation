@@ -78,8 +78,8 @@ def adjust_gamma(image, gamma):
 	inv_gamma = 1.0/gamma
 	table = np.array([(( i/255.0 )**inv_gamma)*255 for i in np.arange(0, 256)]).astype("uint8")
 	adjusted_img = cv2.LUT(image, table)
-	cv2.imshow('gamma', adjusted_img)
-	cv2.waitKey(0)
+	# cv2.imshow('gamma', adjusted_img)
+	# cv2.waitKey(0) # press 'q' to continue
 
 	return adjusted_img
 
@@ -111,8 +111,8 @@ def increase_contrast(clone):
 	# image = (maxIntensity/phi)*(image/(maxIntensity/theta))**2
 	# image = array(image, dtype=uint8)
 
-	cv2.imshow('contrast', image)
-	cv2.waitKey(0)
+	# cv2.imshow('contrast', image)
+	# cv2.waitKey(0) # press 'q' to continue
 	return image
 
 
